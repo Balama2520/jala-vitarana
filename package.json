@@ -18,7 +18,6 @@
     "@splinetool/runtime": "^1.12.32",
     "@tanstack/react-query": "^5.90.16",
     "@tanstack/react-table": "^8.21.3",
-    "@tremor/react": "^3.18.7",
     "@types/three": "^0.182.0",
     "chart.js": "^4.5.1",
     "class-variance-authority": "^0.7.1",
