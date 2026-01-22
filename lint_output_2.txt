@@ -1,0 +1,104 @@
+﻿
+> webapp@0.1.0 lint
+> eslint
+
+
+C:\Users\91809\Downloads\jala vitarana\next.config.ts
+  4:3  error  Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+
+C:\Users\91809\Downloads\jala vitarana\src\components\3d\WaterBackground.tsx
+  8:69  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\91809\Downloads\jala vitarana\src\components\admin\ReceiptGenerator.tsx
+   15:52  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   16:44  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   42:20  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  116:18  warning  'e' is defined but never used             @typescript-eslint/no-unused-vars
+  126:22  warning  'e' is defined but never used             @typescript-eslint/no-unused-vars
+
+C:\Users\91809\Downloads\jala vitarana\src\components\auth\AuthOverlay.tsx
+  23:52  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  60:33  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  61:20  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  78:41  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  80:24  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  83:25  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  93:45  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  99:18  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  99:25  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\91809\Downloads\jala vitarana\src\components\contact\ContactSection.tsx
+  6:16  warning  'MessageSquare' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\91809\Downloads\jala vitarana\src\components\dashboard\FinancialDashboard.tsx
+   16:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   17:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   48:30  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  135:64  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\91809\Downloads\jala vitarana\src\components\distribution\DistributionManager.tsx
+  11:27  warning  'XAxis' is defined but never used         @typescript-eslint/no-unused-vars
+  11:34  warning  'YAxis' is defined but never used         @typescript-eslint/no-unused-vars
+  54:44  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  77:24  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  78:30  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  79:24  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\91809\Downloads\jala vitarana\src\components\hero\HeroSection.tsx
+   6:38  warning  'Activity' is defined but never used                             @typescript-eslint/no-unused-vars
+   6:55  warning  'Globe' is defined but never used                                @typescript-eslint/no-unused-vars
+  51:34  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\91809\Downloads\jala vitarana\src\components\impact\ImpactHeatmap.tsx
+   82:78  error  Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @typescript-eslint/no-explicit-any
+  114:13  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\91809\Downloads\jala vitarana\src\components\impact\ImpactHeatmap.tsx:114:13
+  112 |         } catch (e) {
+  113 |             console.error("Mapbox error:", e);
+> 114 |             setError(true);
+      |             ^^^^^^^^ Avoid calling setState() directly within an effect
+  115 |         }
+  116 |
+  117 |         return () => {  react-hooks/set-state-in-effect
+
+C:\Users\91809\Downloads\jala vitarana\src\components\impact\ImpactSustainability.tsx
+   4:10  warning  'CheckCircle2' is defined but never used                         @typescript-eslint/no-unused-vars
+   4:24  warning  'Droplets' is defined but never used                             @typescript-eslint/no-unused-vars
+   4:34  warning  'List' is defined but never used                                 @typescript-eslint/no-unused-vars
+  63:31  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\91809\Downloads\jala vitarana\src\components\investment\RoiCalculator.tsx
+  4:10  warning  'Card' is defined but never used             @typescript-eslint/no-unused-vars
+  4:16  warning  'CardContent' is defined but never used      @typescript-eslint/no-unused-vars
+  4:29  warning  'CardHeader' is defined but never used       @typescript-eslint/no-unused-vars
+  4:41  warning  'CardTitle' is defined but never used        @typescript-eslint/no-unused-vars
+  4:52  warning  'CardDescription' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\91809\Downloads\jala vitarana\src\components\layout\LiveTicker.tsx
+  13:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\91809\Downloads\jala vitarana\src\components\resources\InvestorResources.tsx
+  5:10  warning  'CheckCircle2' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\91809\Downloads\jala vitarana\src\components\sponsors\SponsorShowcase.tsx
+  4:10  warning  'Building2' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\91809\Downloads\jala vitarana\src\components\team\TeamSection.tsx
+  4:10  warning  'Card' is defined but never used         @typescript-eslint/no-unused-vars
+  4:16  warning  'CardContent' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\91809\Downloads\jala vitarana\src\components\tech\TechShowcase.tsx
+  4:10  warning  'Badge' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\91809\Downloads\jala vitarana\src\lib\firebase.ts
+  32:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 48 problems (27 errors, 21 warnings)
+
