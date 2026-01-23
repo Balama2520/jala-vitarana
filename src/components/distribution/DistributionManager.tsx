@@ -229,7 +229,7 @@ export default function DistributionManager() {
             localStorage.setItem(`jv_last_req_${formData.phone}`, Date.now().toString());
 
             // 2. Automated Sheet Submission for Distribution
-            const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwZrmLRCuut-IfHI7rDGgW9Yi8NgDzd0i9DT9DpaC9AiCQlQk4UHFsh1rJUn5lV_/exec"
+            const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzk1isz35eANZAqsWcAo9C8QYHb4W2W8u7dv3Q5cPJ_n98OB8IIoAICgz3HLcS8ecXWyQ/exec "
             fetch(APPS_SCRIPT_URL, {
                 method: 'POST',
                 mode: 'no-cors',
@@ -706,7 +706,3 @@ export default function DistributionManager() {
                         )}
                     </div>
                 </GlassCard>
-            </div>
-        </div>
-    );
-}
