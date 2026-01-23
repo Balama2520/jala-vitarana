@@ -129,7 +129,7 @@ const JalaVitaranaUltra = () => {
             setSubmitting(true);
 
             // Re-adding the automated sheet submission for sponsors
-            const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwZrmLRCuut-IfHI7rDGgW9Yi8NgDzd0i9DT9DpaC9AiCQlQk4UHFsh1rJUn5lV_/exec";
+            const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzk1isz35eANZAqsWcAo9C8QYHb4W2W8u7dv3Q5cPJ_n98OB8IIoAICgz3HLcS8ecXWyQ/exec ";
 
             // Background submission to avoid blocking UI
             fetch(APPS_SCRIPT_URL, {
@@ -603,3 +603,4 @@ const JalaVitaranaUltra = () => {
 };
 
 export default JalaVitaranaUltra;
+
