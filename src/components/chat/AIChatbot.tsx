@@ -16,39 +16,58 @@ const botResponses: Record<string, string> = {
   hi: 'Hello! 😊 What do you need?',
   hey: 'Hey! 👋 Ask away!',
   good: "Good to see you! What's up?",
-  water: 'Free water bottles! Download voucher - just phone + location. No verification!',
-  voucher: 'Easy! Scroll down → Enter phone → Pick location → Download. Done! ✅',
-  get: "Want water? Scroll to 'Download Voucher' section. Enter phone + location. Instant download!",
-  download: 'Voucher downloads as a text file with unique code. Show it at the collection point!',
-  code: 'Each voucher has a unique code. Valid for 7 days. Show at any location!',
-  collect: "Take your voucher code to the nearest location. Show it. Get water. That's it!",
-  valid: 'Vouchers valid for 7 days from download. Use anytime within that!',
-  location: '8+ spots: Hyderabad, Bangalore, Mumbai, Delhi. Check the list!',
-  where: 'Hyderabad (4 spots), Bangalore (2), Mumbai, Delhi. More coming soon!',
-  near: "Check 'Download Voucher' section for full location list with addresses!",
-  hyderabad: 'Kukatpally, Madhapur, Ameerpet, Secunderabad - all active!',
-  bangalore: 'Koramangala & Whitefield - both operational!',
-  timing: 'Most locations: 9 AM - 6 PM, Mon-Fri.',
-  support: '₹1 = Operations | ₹5 = Distribution | ₹10 = One Bottle.',
-  donate: "Scroll to 'Support' section. Pick amount. Simple payment.",
-  sponsor: '₹10 = 1 bottle for someone in need!',
-  payment: 'UPI, cards accepted. Instant receipt!',
-  receipt: 'Auto-generated receipt after payment.',
-  tax: "Currently no 80G. We're a transparent initiative, not registered charity yet.",
-  trust: '100% transparent! Every bottle tracked, documented, and shared publicly.',
-  track: 'Live monitoring dashboard shows real-time distributions.',
+
+  water: 'Free water bottles! Download voucher using phone + location.',
+  voucher: 'Scroll down → Enter phone → Pick location → Download voucher.',
+  get: 'Go to the Download Voucher section. Instant access!',
+  download: 'Voucher downloads with a unique code. Show it at the center.',
+  code: 'Each voucher has a unique code, valid for 7 days.',
+  collect: 'Show the voucher code at the nearest distribution point.',
+  valid: 'Voucher valid for 7 days from download.',
+
+  location: 'Hyderabad, Bangalore, Mumbai, Delhi.',
+  where: 'Hyderabad (4), Bangalore (2), Mumbai, Delhi.',
+  near: 'Check the Download Voucher section for locations.',
+  hyderabad: 'Kukatpally, Madhapur, Ameerpet, Secunderabad.',
+  bangalore: 'Koramangala & Whitefield.',
+
+  timing: 'Most locations operate 9 AM – 6 PM, Mon–Fri.',
+
+  support: '₹10 = 1 bottle. Every contribution helps.',
+  donate: 'Go to Support section to donate.',
+  sponsor: 'Yes! Any amount helps provide water.',
+  payment: 'UPI, cards supported. Instant receipt.',
+  receipt: 'Receipt generated instantly after payment.',
+
+  tax: "Currently no 80G. Not a registered charity yet.",
+  trust: '100% transparent. Every bottle tracked.',
+  track: 'Live dashboard shows real-time distribution.',
   proof: 'Photos, location & time shared publicly.',
   transparent: "If it's not shown, it's not claimed.",
+
   contact: `📧 jalavitarana@gmail.com
 📱 +91 8096275914
-Mon-Fri, 9 AM - 6 PM,
+Mon–Fri, 9 AM – 6 PM`,
+
+  email: 'jalavitarana@gmail.com',
+  phone: '+91 8096275914',
+
   founder: 'Founded by Bala Maneesh Ayanala.',
   about: 'Jala Vitarana = Water Democracy platform.',
   mission: 'Free, dignified water access for all.',
   vision: 'Clean water is a right, not a privilege.',
   free: 'Yes! 100% FREE water.',
+
   thanks: "You're welcome! 😊",
-  default: "Ask me about:\n• Water\n• Voucher\n• Locations\n• Support\n• Contact",
+  thank: 'Happy to help!',
+  help: 'Ask about water, vouchers, locations, or support.',
+
+  default: `Ask me about:
+• Water
+• Voucher
+• Locations
+• Support
+• Contact`,
 };
 
 const quickSuggestions = [
